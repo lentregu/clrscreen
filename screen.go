@@ -9,10 +9,10 @@ import (
 // Enum to describe the operating system to which the clear function must be created
 const (
 	UNIX    = iota
-	LINUX   = iota
-	DARWIN  = iota
-	WINDOWS = iota
-	OTHER   = iota
+	LINUX
+	DARWIN
+	WINDOWS
+	OTHER
 )
 
 // ClearWindow is a type to define the signature of clear functions
